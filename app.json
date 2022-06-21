@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Machnet-react-native-task",
+    "slug": "Machnet-react-native-task",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
