@@ -1,8 +1,9 @@
 import React from 'react';
-import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
-import Content from './components/Content';
+import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
+
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Content from './components/Content';
 
 export default function App() {
 
@@ -10,7 +11,7 @@ export default function App() {
     <SafeAreaView style={styles.app}>
       <StatusBar style={styles.statbar} barStyle='dark-content'/>
         <Navbar />
-          <Content />
+        <Content />
         <Footer />
     </SafeAreaView>
   );

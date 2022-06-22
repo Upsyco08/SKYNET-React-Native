@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, Image, Button, ScrollView } from 'react-native'
 import React from 'react'
+import { View, Text, StyleSheet, Image, ScrollView } from 'react-native'
 
 const Post = (props) => {
     return (

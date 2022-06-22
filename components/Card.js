@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet, Image, Button } from 'react-native'
 import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 
 const Card = (props) => {
     return (
     <View style={styles.card}>
-          <Text style={styles.title}>{props.title}</Text>
-          <Text style={styles.excerpt}>{props.excerpt}</Text>
-          <Text style={styles.author}>👤{props.author}</Text>
+        <Text style={styles.title}>{props.title}</Text>
+        <Text style={styles.excerpt}>{props.excerpt}</Text>
+        <Text style={styles.author}>👤{props.author}</Text>
     </View>
   )
 }
